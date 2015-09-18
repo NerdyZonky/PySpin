@@ -1,4 +1,4 @@
-Bitte beachten Sie, dass pgrep und sdparm und python installiert sein muss.
+Bitte beachten Sie, dass pgrep,sdparm und python installiert sein muss.
 
 Benutzung des Skripts:
 

@@ -10,17 +10,11 @@ Bsp:
 
 
 /dev/sda
-
 /dev/sdb
-
 /dev/sdc
 
 
-
-
 ###protocol.conf###
-
-
 
 In der Datei protocol.conf werden die Prozesse eingetragen werden die überprüft werden sollen. 
 Wird der manuell gesetzte
@@ -37,19 +31,10 @@ Wird also der Wert 2 überschritten, wird kein Spindown eingeleitet.
 
 Es können beliebig viele Prozesse in die protocol.conf eingetragen werden
 
-
-
 Bsp:
 
-
-
 smb:2
-
 rsync:0
-
 php5-fpm:3
-
-
-
 
 usw.

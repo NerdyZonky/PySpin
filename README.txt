@@ -17,18 +17,13 @@ Bsp:
 ###protocol.conf###
 
 In der Datei protocol.conf werden die Prozesse eingetragen werden die überprüft werden sollen. 
-Wird der manuell gesetzte
-Schwellwert überschritten, wird der Spindown abgebrochen.
-
-
+Wird der manuell gesetzte Schwellwert überschritten, wird der Spindown abgebrochen.
 Der Prozess smb hat beispielsweise 2 Prozesse laufen wenn keiner über die Samba-Freigabe zugreift. 
-Man schreibt also
-folgendes in die protocol.conf:
+Man schreibt also folgendes in die protocol.conf:
 
 smb:2
 
 Wird also der Wert 2 überschritten, wird kein Spindown eingeleitet.
-
 Es können beliebig viele Prozesse in die protocol.conf eingetragen werden
 
 Bsp:

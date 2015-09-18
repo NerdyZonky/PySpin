@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
+
 import os
 
 ####Protokoll####
@@ -15,7 +16,7 @@ for line in protocolFile:
 
 protocolFile.close()
 
-#Temporäre Protokoll Variable
+#Temporäres Protokoll Array
 swapProtoValue = []
 spindown = False;
 
